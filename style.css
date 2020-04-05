@@ -1,9 +1,11 @@
-html {
-    font-family: "Roboto", sans-serif;
+html,
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 .body_wrapper {
     margin: 0 110px;
+    padding: 0 47px 0 56px;
     background-color: rgb(249, 247, 247);
     display: flex;
     flex-direction: column;
@@ -17,7 +19,7 @@ a {
 .container_header {
     display: flex;
     justify-content: space-between;
-    padding: 27px 47px 86px 56px;
+    margin-top: 27px;
 }
 
 .logo {
@@ -35,12 +37,13 @@ nav {
     font-size: 16px;
     text-align: center;
     color: #666666;
-    margin: auto 35px;
+    margin: auto 30px;
 }
 
 .menu_item:hover {
     color: blue;
 }
+
 select {
     border: none;
     background-color: rgb(249, 247, 247);
@@ -48,22 +51,22 @@ select {
 
 
 .contact {
-    border-radius: 10px;
     border: solid 1px #999999;
+    border-radius: 10px;
     padding: 19px 25px;
 }
 
 /* main */
 main {
+    margin-top: 23px;
     display: flex;
-    padding: 23px 110px 78px 93px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
-    margin-top: 91px;
-    font-family: PlayfairDisplay;
+    font-family: 'Playfair Display SC', sans-serif;
     font-size: 50px;
-    font-weight: 500;
     text-align: left;
     color: #1a1a1a;
 }
@@ -110,4 +113,194 @@ input {
     padding: 18px;
 }
 
+.container_right {
+    background-color: rgb(220, 227, 240);
+    display: flex;
+    align-items: flex-end;
+    padding: 100px 20px 0px 20px;
+}
 
+.home_img {
+    width: 500px;
+    height: 390px;
+    margin-bottom: -27px;
+}
+
+/* features */
+
+.features {
+    margin-top: 80px;
+
+}
+
+/* title */
+h2 {
+    font-family: 'Playfair Display SC', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: #112d4e;
+    margin: 0;
+}
+
+hr {
+    width: 40px;
+    height: 1px;
+    border: solid 0.5px #3f72af;
+    background-color: #3f72af;
+    margin: 16px auto;
+}
+
+.subtitle {
+    font-size: 14px;
+    text-align: center;
+    color: #4d4d4d;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* title end */
+
+.features_container {
+    margin-top: 61px;
+    padding: 40px 63px 28px 67px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.box_f {
+    width: 28%;
+}
+
+.img_features {
+    width: 69px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+}
+
+h4 {
+    margin-top: 30px;
+    font-family: 'Playfair Display SC', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: #1a1a1a;
+}
+
+.features_descr {
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: center;
+    color: #333333;
+}
+
+/* section it_works */
+.it_works {
+    margin-top: 100px;
+    margin-bottom: 65px;
+}
+
+.works_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box_w {
+    width: 28%;
+    text-align-last: left;
+}
+
+.w_descr {
+    font-size: 18px;
+    color: #333333;
+}
+
+/* section call */
+.call {
+    background-color: #fff;
+}
+
+.container_call {
+    width: 476px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 80px 122px;
+    background-image: url('images/shadow.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.call_title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+.call_text {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.72;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.call_button {
+    display: block;
+    margin: 46px auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #112d4e;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+}
+
+.call_formcontainer {
+    margin-top: 100px;
+    background-image: url('images/cubes.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 200px;
+    
+}
+
+.flex_call {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call_formtitle {
+    font-size: 18px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.number_call {
+    width: 180px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #f9f7f7;
+}
+
+.button_callform {
+    align-self: flex-end;
+    width: 180px;
+    height: 48px;
+    border-radius: 24px;
+    border: solid 1px #f9f7f7;
+    background-color: rgb(0, 115, 179);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
