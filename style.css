@@ -270,7 +270,7 @@ h4 {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 70px 200px;
-    
+
 }
 
 .flex_call {
@@ -303,4 +303,96 @@ h4 {
     font-weight: bold;
     text-align: center;
     color: #ffffff;
+}
+
+/* section price */
+.price {
+    padding-top: 100px;
+    background-color: #fff;
+}
+
+.container_price {
+    margin-top: 71px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tier {
+    width: 370px;
+    height: 517px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.price_title {
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+    height: 60px;
+    line-height: 60px;
+    background-color: #3f72af;
+}
+
+
+.price_money {
+    margin-top: 45px;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    color: #3f72af;
+}
+
+.price_line {
+    margin: 44px 30px 49px 30px;
+    width: 310px;
+    border: 1px dashed #3f72af;
+}
+
+.price_list {
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+
+.price_item {
+    list-style-type: none;
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: center;
+    color: #333333;
+}
+
+.price_button {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #3f72af;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+}
+
+.price_button:hover {
+    background-color:  #112d4e;
+}
+
+.price_title:hover {
+    background-color: #112d4e;
+}
+
+.partners {
+    padding-top: 173px;
+}
+
+.partners_container{
+    margin-top: 60px;
+    margin-bottom: 170px;
+    display: flex;
+    justify-content: space-between;
 }
